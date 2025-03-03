@@ -83,7 +83,7 @@ def main():
 
 
     
-    username = st.text_input("Enter Your Username", placeholder="E.g., rahima123")
+    username = st.text_input("Enter Your Username", placeholder="E.g., Your Name")
 
     if not username:
         st.warning("Please enter your username to continue.")
